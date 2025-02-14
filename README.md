@@ -1,4 +1,4 @@
-ction Of Data Using Regular Expressions
+# Extraction Of Data Using Regular Expressions
 
 ## Understanding the Project
 
@@ -9,7 +9,7 @@ This project aims to extract required data from hundreds of thousands of pages o
 - Time in 12-hour or 24-hour format
 - Currency amounts
 
-I will use **re** a python's module to define and utilize regex patterns then extract information from sample data. These include
+I will use 're' a python's module to define and utilize regex patterns then extract information from sample data. These include
 
 
 ## Features used of the project
