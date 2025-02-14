@@ -9,7 +9,7 @@ This project aims to extract required data from hundreds of thousands of pages o
 - Time in 12-hour or 24-hour format
 - Currency amounts
 
-I will use 're' a python's module to define and utilize regex patterns then extract information from sample data. These include
+I will use '**re**' a python's module to define and utilize regex patterns then extract information from sample data. These include
 
 
 ## Features used of the project
@@ -25,7 +25,7 @@ I will use 're' a python's module to define and utilize regex patterns then extr
 
 The following regex were used for different data typas:
 - Email:
-'**r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"**'
+**r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"**
 This regex matches only valid email addresses.
 
 - URL:
@@ -46,7 +46,7 @@ This regex finds both 12-hour and 24-hour time formats and excludes any other li
 
 
 ## Sample data used for the project
-Here is the sampke data that i used to test the regular expressions:
+Here is the sample data that I used to test the regular expressions:
 
 
 ## Example Output
@@ -70,7 +70,7 @@ The program will output the following:
 ## How To Run The Program
 
 1. Clone the repository on your machine:
-git clone https://github.com/your-username/alu_regex-data-extraction.git and then enter the repo using **cd**
+git clone https://github.com/your-username/alu_regex-data-extraction.git and then enter the repo using '**cd**'
 
 2. Run the python script:
 Python regex_data_extraction.py
@@ -80,11 +80,11 @@ Python regex_data_extraction.py
 The program involves test cases to make sure that the regex are working as they should. Every test case confirms that the correct number of valid matches are found for every data types.
 
 ### Test cases used
-- Emails: 3 valid emails (excludes funny_email@domain)
-- URLs: 2 valid URLs (excludes gktp://example.com)
-- Phone numbers: 3 valid phone numbers (excludes +250 781 449)
-- Currency: 4 valid currency amounts (excludes 5866)
-- Times: 3 valid times (excludes 21:65 PM)
+- *Emails:* 3 valid emails (excludes funny_email@domain)
+- *URLs:* 2 valid URLs (excludes gktp://example.com)
+- *Phone numbers:* 3 valid phone numbers (excludes +250 781 449)
+- *Currency:* 4 valid currency amounts (excludes 5866)
+- *Times:* 3 valid times (excludes 21:65 PM)
 
 ## Contribution
 Feel free to fork this repository and make pull requests to contribute for more improvements or bug fixes.
