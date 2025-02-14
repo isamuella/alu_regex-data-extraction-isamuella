@@ -80,11 +80,11 @@ Python regex_data_extraction.py
 The program involves test cases to make sure that the regex are working as they should. Every test case confirms that the correct number of valid matches are found for every data types.
 
 ### Test cases used
-- *Emails:* 3 valid emails (excludes funny_email@domain)
-- *URLs:* 2 valid URLs (excludes gktp://example.com)
-- *Phone numbers:* 3 valid phone numbers (excludes +250 781 449)
-- *Currency:* 4 valid currency amounts (excludes 5866)
-- *Times:* 3 valid times (excludes 21:65 PM)
+- **Emails:** 3 valid emails (excludes funny_email@domain)
+- **URLs:** 2 valid URLs (excludes gktp://example.com)
+- **Phone numbers:** 3 valid phone numbers (excludes +250 781 449)
+- **Currency:** 4 valid currency amounts (excludes 5866)
+- **Times:** 3 valid times (excludes 21:65 PM)
 
 ## Contribution
 Feel free to fork this repository and make pull requests to contribute for more improvements or bug fixes.
