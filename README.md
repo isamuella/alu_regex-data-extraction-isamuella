@@ -25,7 +25,7 @@ I will use 're' a python's module to define and utilize regex patterns then extr
 
 The following regex were used for different data typas:
 - Email:
-**r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"**
+'**r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"**'
 This regex matches only valid email addresses.
 
 - URL:
